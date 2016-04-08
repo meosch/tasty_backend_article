@@ -2,6 +2,8 @@
 
 The Tasty Backend Article content type.
 
+Mostly code from [jenitehan/tasty_backend_standard](https://github.com/jenitehan/tasty_backend_standard) and the article administration view from [jenitehan/tasty_backend_base](https://github.com/jenitehan/tasty_backend_basehttps://github.com/jenitehan/tasty_backend_base)
+
 This module adds a "Tasty Backend" Article if one does not already exist. It checks for the content type machine name **article**if it is found it does not create a "Tasty Backend" version of the Article.
 
 #### Options for using this module on a Drupal installation that already has a content type with the machine name **article**.
@@ -16,3 +18,4 @@ If you are using this module without the Tasty Backend Installation Profile you 
 If the RDF module is not a dependency but if it is installed RDF mappings will be create during the installation.
 
 ### Views module
+A view to manage articles will added at http://example.com/admin/manage/content/article
